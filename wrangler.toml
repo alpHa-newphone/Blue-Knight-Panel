@@ -1,4 +1,4 @@
-name = "blueknight-panel"
+name = "blueknight2"
 main = "worker.js"
 # nodejs_compat v2 (which this bundle needs for globalThis.process) requires a
 # compatibility_date of 2024-09-23 or later. With an older date the Worker
@@ -24,7 +24,7 @@ binding = "ASSETS"
 # ---------------------------------------------------------------------------
 [[kv_namespaces]]
 binding = "BK_KV"
-id = "YOUR_KV_NAMESPACE_ID"   # <-- replace me
+id = "c5956d70849e46f09eca22fd6050ded4"   # <-- replace me
 # preview_id = "YOUR_PREVIEW_KV_NAMESPACE_ID"
 
 # NOTE: this file configures Cloudflare *Workers* only. Cloudflare Pages will
